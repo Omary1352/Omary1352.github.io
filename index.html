@@ -478,41 +478,13 @@ make a positive impact on the company’s growth. I have created several project
 
 		<!--contact start -->
 		<section id="Contact">
-    <form onsubmit="sendEmail(); reset(); return false;" >
+    <form action="https://formsubmit.co/omaryw003@gmail.com" onsubmit="sendEmail(); reset(); return false;" method="post">
         <h4>CONTACT ME OR GET IN TOUCH</h4>
-        <input type="text" id="Name" placeholder="Your full Names" required>
-        <input type="email" id="email" placeholder="Email Id" required>
-        <input type="text" id="phone" placeholder="Phone Number" required>
-        <textarea id="message" rows="4" required></textarea>
-        <button type="submit">Send</button>
-    </form>
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <script>
-        function SendEmail(){
-        Email.send({
-        Host : "smtp.elasticemail.com",
-        Username : "omarwashe414@gmail.com",
-        Password : "AACA3C67E80F2FD0932D72729A27391C730D",
-        To : 'omaryw003@gmail.com',
-        From : document.getElementById("email").value,
-        Subject : "New Contact Form Enquiry",
-        Body : "Name: " + document.getElementBiId("name").value
-           + "<br> Email: " + document.getElementBiId("email").value
-           + "<br> Phone Number:" + document.getElementBiId("Phone").value
-           + "<br> Message:" + document.getElementBiId("message").value
-        }).then(
-        message=> alert("Message sent successfully")
-        );
-    }
-    </script>
-</section>
-
-<section>
-	<form action="https://formsubmit.co/omaryw003@gmail.com" method="post">
-        <input type="hidden" name="submit" value="New Email">
-        <input type="text" name="email" placeholder="Email Id" required>
-        <input type="hidden" name="name" value="https://omary13152.github.com/page/thankyou.html">
-        <input type="text" name="name" placeholder="Your Messages" required>
+		<input type="hidden" name="name" value="https://omary13152.github.com/page/thankyou.html">
+        <input type="text" name="Name" placeholder="Your full Names" required>
+        <input type="email" email="Email" placeholder="Email Id" required>
+        <input type="text" name="Phone" placeholder="Phone Number" required>
+        <textarea name="Body" placeholder="Your Message" rows="4" required></textarea>
         <button type="submit">Send</button>
     </form>
 </section>
