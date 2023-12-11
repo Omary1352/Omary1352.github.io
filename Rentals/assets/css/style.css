@@ -257,7 +257,7 @@ height: 100vh;
 width: 100%;
 text-align: center;
 justify-content: space-between;
-background-image: linear-gradient(rgba(223,0,0,0.5), rgba(121,0,10,0.5)), url(671259.jpg);
+background-color: #fff;
 background-position: center;
 background-size: cover;
 position: relative;
@@ -272,8 +272,9 @@ padding: 22px 10px;
 
 .navi h4{
 font-size: 24px;
-color: pink;
+color: rgb(47, 14, 194);
 font-family: times new roman;
+font-weight: bold;
 }
 
 nav{
@@ -292,8 +293,8 @@ position: relative;
 }
 
 .navi li button{
-background-color: #fff;
-border: 2px solid green;
+background-color: rgb(0, 128, 2);
+border: 2px solid rgb(0, 34, 128);
 border-radius: 15px;
 width: 150px;
 cursor: pointer;
@@ -301,8 +302,8 @@ height: 65px;
 }
 
 .navi li a button{
-color: green;
-font-size: 10px;
+color: #fff;
+font-size: 12px;
 font-weight: 500;
 text-decoration: none;
 

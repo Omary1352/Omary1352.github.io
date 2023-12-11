@@ -865,7 +865,7 @@ background-image: linear-gradient(rgba(223,0,0,0.5), rgba(223,0,0,0.5)), url(dj.
 
 
 form{
-background: tomato;
+background: rgb(255, 71, 255);
 display: flex;
 flex-direction: column;
 width: 90%;
@@ -906,4 +906,5 @@ width: 190px;
 margin: 20px auto 0;
 border-radius: 30px;
 }
+
 /*========================Thank you=================
